@@ -3,6 +3,7 @@ import 'package:signals/signals.dart';
 import 'package:signals_nasa/data/dtos/apod_dto.dart';
 import 'package:signals_nasa/data/repositories/apod_repository.dart';
 
+// criação do controller
 class ApodController {
   late final apodSignal = signal<AsyncState<ApodDto>>(AsyncData(ApodDto()));
 
